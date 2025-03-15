@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.log(100 == "100"); // true
 console.log(100 < 1000); // true
 console.log(110 > 100 && 10 < 20); // true
@@ -5,4 +6,13 @@ console.log(-10 == "-10"); // true
 console.log(!( -50 == +"-40")); // true
 console.log(!( 10 >= -"-40")); // true
 console.log(!("10" === 10)); // true
+=======
+console.log(100 == "100"); // true
+console.log(100 < 1000); // true
+console.log(110 > 100 && 10 < 20); // true
+console.log(-10 == "-10"); // true
+console.log(!( -50 == +"-40")); // true
+console.log(!( 10 >= -"-40")); // true
+console.log(!("10" === 10)); // true
+>>>>>>> 9527b62c45189773d69999426553a8efecf4968d
 console.log(!( 20 < false)); // true

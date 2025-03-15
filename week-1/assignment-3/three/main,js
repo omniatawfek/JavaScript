@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let num = "10";
 
 // Solution One
@@ -10,4 +11,18 @@ console.log(+num*(true+true)); // 20
 console.log((+num *+num )/+num + +num); // 20
 
 // Solution Four
+=======
+let num = "10";
+
+// Solution One
+console.log(+num + +num); // 20
+
+// Solution Two
+console.log(+num*(true+true)); // 20
+
+// Solution Three
+console.log((+num *+num )/+num + +num); // 20
+
+// Solution Four
+>>>>>>> 9527b62c45189773d69999426553a8efecf4968d
 console.log(++num + --num -true); // 20
