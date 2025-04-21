@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement("div");
+        let head = document.createElement("h2");
+        let headText = document.createTextNode("Welcome");
+        head.appendChild(headText);
+
+        let p = document.createElement("p");
+        let pText = document.createTextNode("Welcome To Elzero Web School");
+        p.appendChild(pText);
+
+        div.appendChild(head);
+        div.appendChild(p);
+
+        div.style.cssText = "position:relative; width:700px; height:400px;display: flex;flex-direction: column;justify-content: center;align-items: center; background:#eee; border:1px solid #ccc;";
+        document.body.style.cssText = " display:flex;align-items: center; justify-content:center";
+
+        let x = document.createElement("button");
+        let xText = document.createTextNode("x");
+        x.appendChild(xText);
+        div.appendChild(x);
+
+        x.style.cssText = "color:white; background:red; border:none; padding:5px 10px; cursor:pointer; position:absolute; top:0; right:0;";
+
+        setTimeout(function(){
+            document.body.appendChild(div);
+        },5000);
+
+        x.onclick = function(){
+            div.remove();
+        }
+      </script>
+</body>
+</html>

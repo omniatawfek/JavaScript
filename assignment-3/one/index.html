@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let msg = prompt("Print Number From – To","5-20");
+        let element = msg.trim().split("-");
+        element.reduce(function(acc,curr){
+            if(+acc > +curr){
+                for(i = +curr ;i<= +acc ;i++)
+                document.write(`${i} <br>`);
+            }
+            else 
+            {
+                for(i = +acc ;i<= +curr ;i++)
+                document.write(`${i} <br>`);
+            }
+        });
+    </script>
+</body>
+</html>

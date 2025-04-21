@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement("div");
+        let num = document.createTextNode("10");
+        div.appendChild(num);
+        document.body.appendChild(div);
+
+        function countDown(){
+            div.innerHTML -= 1;
+            if(div.innerHTML === "0")
+            location.href = "https://elzero.org/";
+        }
+        let counter = setInterval(countDown,1000);
+    </script>
+</body>
+</html>
