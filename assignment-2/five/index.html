@@ -13,33 +13,9 @@
 <section>Element</section>
 
 <script>
-    let div = document.querySelector("div");
-    div.setAttribute("class","div");
-
-    let span = document.querySelector("span");
-    span.setAttribute("class","span");
-
-    let p = document.querySelector("p");
-    p.setAttribute("class","p");
-
-    let article = document.querySelector("article");
-    article.setAttribute("class","article");
-
-    let sec = document.querySelector("section");
-    sec.setAttribute("class","section");
-
-    document.addEventListener("click", function(e){
-        if(e.target.className == "div")
-        console.log("This Is Div");
-        if(e.target.className == "span")
-        console.log("This Is Span");
-        if(e.target.className == "p")
-        console.log("This Is P");
-        if(e.target.className == "article")
-        console.log("This Is Article");
-        if(e.target.className == "section")
-        console.log("This Is Section");
-    })
+   document.body.addEventListener("click",function(e){
+    console.log(`This Element Is ${e.target.tagName}`);
+   });
 </script>
 </body>
 </html>
