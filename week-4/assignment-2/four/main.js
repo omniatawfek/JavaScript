@@ -33,7 +33,7 @@ let myFavGames = {
     console.log(`The Price Is ${myFavGames[Object.keys(myFavGames)[i]].price}`);
   
     // Check If Nested Object Has Property (bestThree)
-    if (myFavGames[Object.getOwnPropertyNames(myFavGames)[i]].bestThree !== undefined) {
+    if (myFavGames[Object.keys(myFavGames)[i]].bestThree !== undefined) {
       console.log("- Game Has Releases");
       console.log(`First => ${myFavGames[Object.keys(myFavGames)[i]].bestThree.one}`);
       console.log(`Second => ${myFavGames[Object.keys(myFavGames)[i]].bestThree.two}`);
