@@ -1,0 +1,39 @@
+{
+    "articles":[
+    {
+        "id":100,
+        "name": "jonas",
+        "department": "drama",
+        "title":"hello",
+        "content":"hello it is an article"
+    },
+    {
+        "id":100,
+        "name": "jonas",
+        "department": "drama",
+        "title":"hello",
+        "content":"hello it is an article"
+    },
+    {
+        "id":100,
+        "name": "jonas",
+        "department": "drama",
+        "title":"hello",
+        "content":"hello it is an article"
+    },
+    {
+        "id":100,
+        "name": "jonas",
+        "department": "drama",
+        "title":"hello",
+        "content":"hello it is an article"
+    },
+    {
+        "id":100,
+        "name": "jonas",
+        "department": "drama",
+        "title":"hello",
+        "content":"hello it is an article"
+    }
+]
+}
